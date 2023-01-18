@@ -1,10 +1,10 @@
-
+import Counter from "./features/counter/Counter";
 
 function App() {
   return (
-    <div className="App">
-     <p>Hello World!!!</p>
-    </div>
+    <main className="App">
+      <Counter />
+    </main>
   );
 }
 
